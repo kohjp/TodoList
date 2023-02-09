@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.date {
+  width: 150px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.custom-input {
+  background-color:#264db5;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.custom-input:hover {
+  background-color: #1c3b8e;
+}
+
+.datePositon {
+  position: absolute;
+  justify-content: right;
+  right: 10px;
+}
+
+.addBtn {
+  color: lightgreen;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  color: rgb(92, 202, 92);
+}
+
+.addBtn:active {
+  color: rgb(70, 168, 70);
+}
+
+.addBtnContainer {
+  display: flex;
+  justify-content: center;
+}
